@@ -1,8 +1,8 @@
 /* Global */
 :root {
     --dark-blue: #363f5f;
-    --green: #49aa26;
-    --light-green: #3dd705;
+    --green: #2826aa;
+    --light-green: #058ad7;
     --red: #e92929;
   }
   
@@ -103,7 +103,7 @@
   /*logo imagem topo */
   /* Header */
   header {
-    background: #2d4a22;
+    background: #22254a;
     padding: 2rem 0 12rem;
     text-align: center;
   }
@@ -214,7 +214,7 @@
   }
   
   td.income {
-    color: #12a454;
+    color: #1234a4;
   }
   
   td.expense {
