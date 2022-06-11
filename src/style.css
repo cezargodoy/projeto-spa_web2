@@ -104,7 +104,7 @@
   /* Header */
   header {
    /* background: #22254a; */
-    background: #000000;
+    background: #1aacf0;
     padding: 2rem 0 12rem;
     text-align: center;
   }
@@ -322,14 +322,20 @@
   }
   
   /* Responsive */
-  @media only screen and (min-width: 768px) {
-    html {
-      font-size: 87.5%; /* 14px */
+  @media only screen and (max-width: 1050px) {
+     {
+
+
+    /*  font-size: 87.5%; /* 14px */
+      font-size: 75.5%; /* 14px */
+
+
     }
   
+      /* Responsive */
     #balance {
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 1fr 1fr 1fr */
-      gap: 2rem;
+      gap: 3rem;
     }
   }
