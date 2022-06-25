@@ -16,12 +16,10 @@ const masks = {
         .replace(/(-\d{2})\d+?$/, '$1');
     },
 
-
    //Mascara para Data de Nascimento
     date(value) {
       return value
     },
-
 
    //Mascara para Email
     email(value) {
